@@ -46,7 +46,7 @@
       google.charts.load("current", { packages: ["corechart"] });
       google.charts.setOnLoadCallback(() => {
         drawCharts();
-        setInterval(drawCharts, 60000); // Cada 1 minuto
+        setInterval(drawCharts, 10000); // Cada 10 seg
       });
 
       function drawCharts() {
